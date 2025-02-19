@@ -6,7 +6,7 @@ const HeroSection = () => {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    // Simulating fetching images (you can replace it with your API/JSON)
+    // Simulating fetching images (you can replace this with your API/JSON)
     const imageData = [
       { src: "assets/hero/soloTravel1.jpg", alt: "Adventure in the mountains" },
       { src: "assets/hero/soloTravel2.jpg", alt: "Exploring the beach" },
@@ -25,6 +25,7 @@ const HeroSection = () => {
               src={image.src}
               alt={image.alt}
               style={{ height: "100vh", objectFit: "cover" }}
+              loading="lazy" // Lazy loading for better performance
             />
           </Carousel.Item>
         ))}
