@@ -1,0 +1,21 @@
+.fuelStationFinder {
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .fuelStationFinder h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .mapContainer {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-top: 10px;
+    width: 100%;
+  }
+  

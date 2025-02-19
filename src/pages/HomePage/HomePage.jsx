@@ -5,6 +5,7 @@ import FeatureCards from '../../components/FeatureCards/FeatureCards'
 import Footer from '../../components/Footer/Footer'
 import MapComponent from '../../components/MapComponent/MapComponent'
 import RoutePlanner from '../../components/RoutePlanner/RoutePlanner'
+import FuelStationFinder from '../../components/FuelStationFinder/FuelStationFinder'
 
 
 
@@ -15,8 +16,9 @@ const HomePage = () => {
       <Navbar />
       <HeroSection />
       <FeatureCards />
-      {/* <MapComponent /> */}
+      <MapComponent />
       <RoutePlanner />
+      <FuelStationFinder />
       <Footer />
     </div>
   )
