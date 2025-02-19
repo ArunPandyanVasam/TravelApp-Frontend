@@ -16,9 +16,6 @@ const HomePage = () => {
       <Navbar />
       <HeroSection />
       <FeatureCards />
-      <MapComponent />
-      <RoutePlanner />
-      <FuelStationFinder />
       <Footer />
     </div>
   )
