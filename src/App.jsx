@@ -6,6 +6,8 @@ import ProfilePage from "./pages/ProfilePage/ProfilePage";
 import SafetyAndEmergencyPage from "./pages/SafetyAndEmergencyPage/SafetyAndEmergencyPage";
 import TravellerPlannerPage from "./pages/TravellerPlannerPage/TravellerPlannerPage";
 import ExpenseTrackerPage from "./pages/ExpenseTrackerPage/ExpenseTrackerPage";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return <div>
