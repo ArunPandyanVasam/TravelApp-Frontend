@@ -7,11 +7,14 @@ import SafetyAndEmergencyPage from "./pages/SafetyAndEmergencyPage/SafetyAndEmer
 import TravellerPlannerPage from "./pages/TravellerPlannerPage/TravellerPlannerPage";
 import ExpenseTrackerPage from "./pages/ExpenseTrackerPage/ExpenseTrackerPage";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
   return <div>
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/navigation" element={<NavigationPage />} />
@@ -20,6 +23,7 @@ function App() {
         <Route path="/expenses" element={<ExpenseTrackerPage />} />
         <Route path="/profile" element={<ProfilePage />} />
       </Routes>
+      <Footer />
     </Router>
   </div>;
 }
