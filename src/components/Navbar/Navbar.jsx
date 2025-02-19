@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";  // Importing icons from react-icons
+import { FaBars, FaTimes } from "react-icons/fa"; // Importing icons from react-icons
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
@@ -16,7 +16,8 @@ const Navbar = () => {
 
       {/* Hamburger Icon or Close Icon */}
       <div className={styles.menuIcon} onClick={toggleMenu}>
-        {isMenuOpen ? <FaTimes size={30} /> : <FaBars size={30} />}  {/* Conditionally render icons */}
+        {isMenuOpen ? <FaTimes size={30} /> : <FaBars size={30} />}{" "}
+        {/* Conditionally render icons */}
       </div>
 
       {/* Navigation Links */}
