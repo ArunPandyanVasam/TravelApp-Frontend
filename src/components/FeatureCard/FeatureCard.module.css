@@ -1,0 +1,40 @@
+/* FeatureCard.module.css */
+
+/* Styling for each individual card */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the cards */
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Styling for the icon inside the card */
+  .icon {
+    color: #f39c12;
+    margin-bottom: 20px;
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Description styling */
+  .description {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 10px;
+  }
+  

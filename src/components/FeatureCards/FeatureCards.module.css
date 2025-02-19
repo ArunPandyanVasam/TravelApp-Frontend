@@ -1,0 +1,33 @@
+/* FeatureCards.module.css */
+
+/* Container for the entire feature card section */
+.featureCardsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    margin-top: 30px; /* Add margin to give space from other sections */
+  }
+  
+  /* For responsiveness - Stack the cards vertically on smaller screens */
+  @media (max-width: 768px) {
+    .featureCardsContainer {
+      justify-content: center;
+      padding: 20px 10px;
+    }
+  }
+  
+  /* For extra small screens, make it a single column */
+  @media (max-width: 480px) {
+    .featureCardsContainer {
+      justify-content: center;
+      padding: 10px;
+    }
+  
+    .card {
+      width: 100%; /* Full-width cards on small screens */
+    }
+  }
+  
