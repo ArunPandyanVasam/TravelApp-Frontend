@@ -1,4 +1,7 @@
 /* Global styles - keep only essential styles */
+@import 'leaflet/dist/leaflet.css';
+
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f9fa;
