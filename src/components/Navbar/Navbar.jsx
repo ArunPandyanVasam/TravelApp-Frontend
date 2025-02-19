@@ -12,21 +12,18 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logo}>SoloTravel</div>
+      {/* Logo as a clickable link */}
+      <Link to="/" className={styles.logo}>
+        SoloTravel
+      </Link>
 
       {/* Hamburger Icon or Close Icon */}
       <div className={styles.menuIcon} onClick={toggleMenu}>
-        {isMenuOpen ? <FaTimes size={30} /> : <FaBars size={30} />}{" "}
-        {/* Conditionally render icons */}
+        {isMenuOpen ? <FaTimes size={30} /> : <FaBars size={30} />} 
       </div>
 
       {/* Navigation Links */}
       <ul className={`${styles.navLinks} ${isMenuOpen ? styles.active : ""}`}>
-        <li>
-          <Link to="/" className={styles.navLink}>
-            Home
-          </Link>
-        </li>
         <li>
           <Link to="/navigation" className={styles.navLink}>
             Navigation
