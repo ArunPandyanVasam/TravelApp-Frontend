@@ -1,9 +1,12 @@
 import React from 'react'
+import ItineraryForm from '../../components/ItineraryForm/ItineraryForm'
+import SuggestedSpots from '../../components/SuggestedSpots/SuggestedSpots'
 
 const TravellerPlannerPage = () => {
   return (
     <div>
-      TravellerPlannerPage
+      <ItineraryForm />
+      <SuggestedSpots />
     </div>
   )
 }
