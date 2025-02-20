@@ -2,24 +2,19 @@ import React, { useState, useEffect } from "react";
 import { Card, Button, Row, Col } from "react-bootstrap";
 import styles from "./FoodRecommendations.module.css";
 
-// Sample data for food recommendations (replace with API data later)
-const sampleFoodRecommendations = [
-  { id: 1, name: "La Petite Boucherie", type: "French", location: "Paris, France", rating: 4.5, image: "https://via.placeholder.com/150" },
-  { id: 2, name: "Sushi Paradise", type: "Japanese", location: "Tokyo, Japan", rating: 4.8, image: "https://via.placeholder.com/150" },
-  { id: 3, name: "Taco Haven", type: "Mexican", location: "Los Angeles, USA", rating: 4.3, image: "https://via.placeholder.com/150" },
-  { id: 4, name: "Bella Italia", type: "Italian", location: "Rome, Italy", rating: 4.6, image: "https://via.placeholder.com/150" },
-];
-
 const FoodRecommendations = () => {
   const [foodRecommendations, setFoodRecommendations] = useState([]);
 
-  // Fetch food recommendation data (using sample data for now)
+  // Fetch food recommendation data from the JSON file
   useEffect(() => {
     const fetchFoodRecommendations = async () => {
-      // Replace with actual API call:
-      // const response = await fetch('your-api-url');
-      // const data = await response.json();
-      setFoodRecommendations(sampleFoodRecommendations);
+      try {
+        const response = await fetch("/data/foodRecommendations.json");
+        const data = await response.json();
+        setFoodRecommendations(data);
+      } catch (error) {
+        console.error("Error fetching food recommendations data:", error);
+      }
     };
 
     fetchFoodRecommendations();

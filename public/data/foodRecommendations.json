@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "La Petite Boucherie",
+      "type": "French",
+      "location": "Paris, France",
+      "rating": 4.5,
+      "image": "assets/foodRecommendations/la_petite_boucherie.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sushi Paradise",
+      "type": "Japanese",
+      "location": "Tokyo, Japan",
+      "rating": 4.8,
+      "image": "assets/foodRecommendations/la_petite_boucherie.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Taco Haven",
+      "type": "Mexican",
+      "location": "Los Angeles, USA",
+      "rating": 4.3,
+      "image": "assets/foodRecommendations/la_petite_boucherie.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Bella Italia",
+      "type": "Italian",
+      "location": "Rome, Italy",
+      "rating": 4.6,
+      "image": "assets/foodRecommendations/la_petite_boucherie.jpg"
+    }
+  ]
+  
