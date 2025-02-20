@@ -1,0 +1,39 @@
+{
+    "bikes": [
+      { "name": "Harley Davidson", "image": "harley.jpg", "price": "$150/day" },
+      { "name": "Ducati Monster", "image": "harley.jpg", "price": "$140/day" },
+      { "name": "Kawasaki Ninja", "image": "harley.jpg", "price": "$130/day" },
+      { "name": "Harley Davidson", "image": "harley.jpg", "price": "$150/day" },
+      { "name": "Ducati Monster", "image": "harley.jpg", "price": "$140/day" },
+      { "name": "Kawasaki Ninja", "image": "harley.jpg", "price": "$130/day" },
+      { "name": "Kawasaki Ninja", "image": "harley.jpg", "price": "$130/day" },
+      { "name": "Harley Davidson", "image": "harley.jpg", "price": "$150/day" },
+      { "name": "Ducati Monster", "image": "harley.jpg", "price": "$140/day" },
+      { "name": "Kawasaki Ninja", "image": "harley.jpg", "price": "$130/day" }
+    ],
+    "cars": [
+      { "name": "Tesla Model 3", "image": "harley.jpg", "price": "$200/day" },
+      { "name": "Ford Mustang", "image": "harley.jpg", "price": "$180/day" },
+      { "name": "Kawasaki Ninja", "image": "harley.jpg", "price": "$130/day" },
+      { "name": "Harley Davidson", "image": "harley.jpg", "price": "$150/day" },
+      { "name": "Ducati Monster", "image": "harley.jpg", "price": "$140/day" },
+      { "name": "Kawasaki Ninja", "image": "harley.jpg", "price": "$130/day" },
+      { "name": "Kawasaki Ninja", "image": "harley.jpg", "price": "$130/day" },
+      { "name": "Harley Davidson", "image": "harley.jpg", "price": "$150/day" },
+      { "name": "Ducati Monster", "image": "harley.jpg", "price": "$140/day" },
+      { "name": "Kawasaki Ninja", "image": "harley.jpg", "price": "$130/day" }
+    ],
+    "others": [
+      { "name": "Yamaha Jet Ski", "image": "harley.jpg", "price": "$170/day" },
+      { "name": "Kawasaki Ninja", "image": "harley.jpg", "price": "$130/day" },
+      { "name": "Harley Davidson", "image": "harley.jpg", "price": "$150/day" },
+      { "name": "Ducati Monster", "image": "harley.jpg", "price": "$140/day" },
+      { "name": "Kawasaki Ninja", "image": "harley.jpg", "price": "$130/day" },
+      { "name": "Kawasaki Ninja", "image": "harley.jpg", "price": "$130/day" },
+      { "name": "Harley Davidson", "image": "harley.jpg", "price": "$150/day" },
+      { "name": "Ducati Monster", "image": "harley.jpg", "price": "$140/day" },
+      { "name": "Kawasaki Ninja", "image": "harley.jpg", "price": "$130/day" },
+      { "name": "Kawasaki Ninja", "image": "harley.jpg", "price": "$130/day" }
+    ]
+  }
+  
