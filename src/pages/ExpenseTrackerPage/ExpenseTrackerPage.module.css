@@ -1,0 +1,32 @@
+/* ExpenseTrackerPage.module.css */
+
+.expense-tracker-page {
+    padding: 30px;
+    background-color: #fafafa;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .expense-tracker-page {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 24px;
+    }
+  }
+  

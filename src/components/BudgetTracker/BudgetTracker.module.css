@@ -1,0 +1,64 @@
+/* BudgetTracker.module.css */
+
+.budget-tracker {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 900px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .header {
+    font-size: 32px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .remaining-budget {
+    font-size: 22px;
+    color: #4CAF50;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 1024px) {
+    .budget-tracker {
+      padding: 20px;
+    }
+    .header {
+      font-size: 28px;
+    }
+    .remaining-budget {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .budget-tracker {
+      padding: 15px;
+    }
+    .header {
+      font-size: 24px;
+    }
+    .remaining-budget {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .budget-tracker {
+      padding: 10px;
+    }
+    .header {
+      font-size: 20px;
+    }
+    .remaining-budget {
+      font-size: 16px;
+    }
+  }
+  

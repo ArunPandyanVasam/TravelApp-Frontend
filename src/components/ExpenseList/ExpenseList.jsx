@@ -1,44 +1,34 @@
-import React from "react";
-import styles from "./ExpenseList.module.css";
+import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './ExpenseList.module.css'; // Import styles as an object
 
 const ExpenseList = ({ expenses }) => {
-  if (expenses.length === 0) {
-    return <p className={styles.noExpenses}>No expenses added yet.</p>;
-  }
-
-  // Grouping expenses by category
-  const groupedExpenses = expenses.reduce((acc, expense) => {
-    if (!acc[expense.category]) {
-      acc[expense.category] = [];
-    }
-    acc[expense.category].push(expense);
-    return acc;
-  }, {});
-
   return (
-    <div className={styles.expenseListContainer}>
-      {Object.keys(groupedExpenses).map((category) => (
-        <div key={category} className={styles.categorySection}>
-          <h3 className={styles.categoryTitle}>{category}</h3>
-          <ul className={styles.expenseItems}>
-            {groupedExpenses[category].map((expense, index) => (
-              <li key={index} className={styles.expenseItem}>
-                <div className={styles.expenseDetails}>
-                  <span className={styles.expenseTitle}>{expense.title}</span>
-                  <span className={styles.expenseAmount}>
-                    ₹{expense.amount.toFixed(2)}
-                  </span>
-                </div>
-                <div className={styles.expenseDate}>
-                  {new Date(expense.date).toLocaleDateString()}
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
+    <div className={styles['expense-list']}>
+      <h3 className={styles['header']}>Expense List</h3>
+      <ul>
+        {expenses.length === 0 ? (
+          <li>No expenses added yet.</li>
+        ) : (
+          expenses.map((expense, index) => (
+            <li key={index}>
+              <span className={styles['category']}>{expense.category}</span>:
+              <span className={styles['amount']}>${expense.amount}</span>
+            </li>
+          ))
+        )}
+      </ul>
     </div>
   );
+};
+
+ExpenseList.propTypes = {
+  expenses: PropTypes.arrayOf(
+    PropTypes.shape({
+      category: PropTypes.string.isRequired,
+      amount: PropTypes.number.isRequired,
+    })
+  ).isRequired,
 };
 
 export default ExpenseList;

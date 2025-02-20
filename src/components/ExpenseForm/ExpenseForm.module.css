@@ -1,97 +1,70 @@
-/* Container */
-.expenseContainer {
-    max-width: 400px;
-    margin: 20px auto;
+/* ExpenseForm.module.css */
+
+.expense-form {
+    background-color: #f9f9f9;
     padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
   }
   
-  /* Heading */
-  .expenseContainer h2 {
+  .label {
+    font-size: 16px;
+    font-weight: 500;
     color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .input,
+  .button {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
     margin-bottom: 15px;
-    font-size: 22px;
   }
   
-  /* Form */
-  .expenseForm {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .expenseForm input,
-  .expenseForm select {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .expenseForm input:focus,
-  .expenseForm select:focus {
-    border-color: #007bff;
+  .input:focus,
+  .button:focus {
     outline: none;
+    border-color: #4CAF50;
   }
   
-  /* Button */
-  .expenseForm button {
-    background: #007bff;
+  .input {
+    background-color: #fff;
+  }
+  
+  .button {
+    background-color: #4CAF50;
     color: white;
-    font-size: 16px;
-    padding: 12px;
+    font-weight: bold;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
   }
   
-  .expenseForm button:hover {
-    background: #0056b3;
+  .button:hover {
+    background-color: #45a049;
   }
   
-  /* 🔹 Responsive Design */
   @media (max-width: 768px) {
-    .expenseContainer {
-      max-width: 90%;
+    .expense-form {
       padding: 15px;
     }
   
-    .expenseForm input,
-    .expenseForm select {
-      font-size: 14px;
+    .input,
+    .button {
       padding: 10px;
     }
   
-    .expenseForm button {
+    .label {
       font-size: 14px;
-      padding: 10px;
     }
   }
   
   @media (max-width: 480px) {
-    .expenseContainer {
-      padding: 10px;
-    }
-  
-    .expenseContainer h2 {
-      font-size: 20px;
-    }
-  
-    .expenseForm input,
-    .expenseForm select {
-      font-size: 14px;
+    .input,
+    .button {
       padding: 8px;
-    }
-  
-    .expenseForm button {
-      font-size: 14px;
-      padding: 10px;
     }
   }
   
