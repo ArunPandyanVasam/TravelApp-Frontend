@@ -1,9 +1,10 @@
 import React from 'react'
+import EmergencyButton from '../../components/EmergencyButton/EmergencyButton'
 
 const SafetyAndEmergencyPage = () => {
   return (
     <div>
-      SafetyAndEmergencyPage
+      <EmergencyButton />
     </div>
   )
 }

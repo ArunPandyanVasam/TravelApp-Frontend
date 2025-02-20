@@ -1,0 +1,31 @@
+.sosContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .sosButton {
+    background-color: red;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  .sosButton:hover {
+    background-color: darkred;
+  }
+  
+  .sosButton:disabled {
+    background-color: gray;
+  }
+  
+  .alert {
+    margin-bottom: 15px;
+  }
+  
