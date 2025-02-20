@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Mount Everest",
+      "description": "The highest mountain in the world",
+      "image": "/assets/suggestedSpots/mount_everest.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Great Wall of China",
+      "description": "An ancient wall stretching across China",
+      "image": "/assets/suggestedSpots/mount_everest.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Eiffel Tower",
+      "description": "A wrought-iron lattice tower in Paris",
+      "image": "/assets/suggestedSpots/mount_everest.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Santorini",
+      "description": "A beautiful island in Greece known for its sunsets",
+      "image": "/assets/suggestedSpots/mount_everest.jpg"
+    }
+  ]
+  

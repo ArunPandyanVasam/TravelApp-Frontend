@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "Hotel Sunrise",
+      "type": "Hotel",
+      "location": "Paris, France",
+      "price": "$120 per night",
+      "image": "assets/accommodations/hotel_sunrise.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mountain View Hostel",
+      "type": "Hostel",
+      "location": "Swiss Alps, Switzerland",
+      "price": "$40 per night",
+      "image": "assets/accommodations/hotel_sunrise.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Eco Camping",
+      "type": "Camping",
+      "location": "Yosemite National Park, USA",
+      "price": "$30 per night",
+      "image": "assets/accommodations/hotel_sunrise.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Beachside Resort",
+      "type": "Hotel",
+      "location": "Bali, Indonesia",
+      "price": "$150 per night",
+      "image": "assets/accommodations/hotel_sunrise.jpg"
+    }
+  ]
+  

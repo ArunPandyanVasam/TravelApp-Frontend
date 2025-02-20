@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Form } from "react-bootstrap";
+import { Button, Form, Row, Col } from "react-bootstrap";
 import styles from "./ItineraryForm.module.css";
 
 const ItineraryForm = () => {
@@ -29,26 +29,34 @@ const ItineraryForm = () => {
             placeholder="Enter destination"
             value={destination}
             onChange={(e) => setDestination(e.target.value)}
+            required
           />
         </Form.Group>
 
-        <Form.Group controlId="startDate">
-          <Form.Label>Start Date</Form.Label>
-          <Form.Control
-            type="date"
-            value={startDate}
-            onChange={(e) => setStartDate(e.target.value)}
-          />
-        </Form.Group>
-
-        <Form.Group controlId="endDate">
-          <Form.Label>End Date</Form.Label>
-          <Form.Control
-            type="date"
-            value={endDate}
-            onChange={(e) => setEndDate(e.target.value)}
-          />
-        </Form.Group>
+        <Row>
+          <Col md={6}>
+            <Form.Group controlId="startDate">
+              <Form.Label>Start Date</Form.Label>
+              <Form.Control
+                type="date"
+                value={startDate}
+                onChange={(e) => setStartDate(e.target.value)}
+                required
+              />
+            </Form.Group>
+          </Col>
+          <Col md={6}>
+            <Form.Group controlId="endDate">
+              <Form.Label>End Date</Form.Label>
+              <Form.Control
+                type="date"
+                value={endDate}
+                onChange={(e) => setEndDate(e.target.value)}
+                required
+              />
+            </Form.Group>
+          </Col>
+        </Row>
 
         <Button variant="primary" type="submit" className={styles.submitBtn}>
           Submit
