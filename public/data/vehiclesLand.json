@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "image": "/assets/suggestedSpots/mount_everest.jpg",
+      "name": "Land Rover Defender",
+      "description": "The Land Rover Defender is a rugged, reliable off-road vehicle perfect for adventures."
+    },
+    {
+      "id": 2,
+      "image": "/assets/suggestedSpots/mount_everest.jpg",
+      "name": "Toyota Land Cruiser",
+      "description": "The Toyota Land Cruiser is an iconic 4x4 with superior off-road capabilities."
+    },
+    {
+      "id": 3,
+      "image": "/assets/suggestedSpots/mount_everest.jpg",
+      "name": "Jeep Wrangler",
+      "description": "The Jeep Wrangler is known for its off-road prowess and iconic design."
+    }
+  ]
+  

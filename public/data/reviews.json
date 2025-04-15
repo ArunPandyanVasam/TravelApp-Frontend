@@ -1,0 +1,21 @@
+[
+    {
+      "name": "John Doe",
+      "rating": 5,
+      "likes": "The van was spacious and clean. Loved the easy booking process!",
+      "improvement": "Could have better instructions for navigation in rural areas."
+    },
+    {
+      "name": "Jane Smith",
+      "rating": 4,
+      "likes": "Comfortable ride and great customer service.",
+      "improvement": "The van could have been a bit more fuel efficient."
+    },
+    {
+      "name": "Sam Wilson",
+      "rating": 3,
+      "likes": "The van was in good condition.",
+      "improvement": "Could improve the heating system, it was a bit too cold at night."
+    }
+  ]
+  

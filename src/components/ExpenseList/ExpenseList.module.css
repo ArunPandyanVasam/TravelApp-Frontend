@@ -1,55 +1,73 @@
 /* ExpenseList.module.css */
 
 .expense-list {
-    margin-top: 20px;
-  }
-  
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.expense-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expense-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  color: #555;
+  transition: background-color 0.3s ease;
+}
+
+.expense-list li:hover {
+  background-color: #f1f1f1;
+}
+
+.expense-list .category {
+  font-weight: bold;
+  color: #333;
+}
+
+.expense-list .amount {
+  color: #4CAF50;
+  font-weight: 600;
+}
+
+.expense-list li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
   .header {
-    font-size: 22px;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 15px;
+    font-size: 20px;
   }
-  
-  .expense-list ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
+
   .expense-list li {
-    display: flex;
-    justify-content: space-between;
+    font-size: 15px;
     padding: 12px;
-    border-bottom: 1px solid #ddd;
-    font-size: 16px;
-    color: #555;
   }
-  
-  .expense-list .category {
-    font-weight: bold;
-    color: #333;
+}
+
+@media (max-width: 480px) {
+  .header {
+    font-size: 18px;
   }
-  
-  .expense-list .amount {
-    color: #4CAF50;
-    font-weight: 600;
+
+  .expense-list li {
+    font-size: 14px;
+    padding: 10px;
   }
-  
-  @media (max-width: 768px) {
-    .header {
-      font-size: 18px;
-    }
-  
-    .expense-list li {
-      font-size: 14px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .expense-list li {
-      font-size: 12px;
-      padding: 10px;
-    }
-  }
-  
+}

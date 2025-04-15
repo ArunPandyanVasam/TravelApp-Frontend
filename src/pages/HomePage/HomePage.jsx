@@ -2,6 +2,9 @@ import React from 'react'
 import HeroSection from '../../components/HeroSection/HeroSection'
 import FeatureCards from '../../components/FeatureCards/FeatureCards'
 import MapComponent from '../../components/MapComponent/MapComponent'
+import VanHostDashboard from '../../components/VanHostDashboard/VanHostDashboard'
+import OurClientReviews from '../../components/OurClientReviews/OurClientReviews'
+import VehicleCard from '../../components/VehicleCard/VehicleCard'
 
 
 
@@ -11,7 +14,10 @@ const HomePage = () => {
     <div>
       <HeroSection />
       <FeatureCards />
-      <MapComponent />
+      <VanHostDashboard />
+      <OurClientReviews />
+      {/* <MapComponent /> */}
+      <VehicleCard />
     </div>
   )
 }

@@ -41,7 +41,7 @@ const VehicleRentOut = () => {
   };
 
   return (
-    <Box sx={{ width: "100%", padding: 3 }}>
+    <Box sx={{ width: "100%", padding: 2 }}>
       <Tabs value={selectedCategory} onChange={handleTabChange} centered>
         <Tab label="Bikes" value="bikes" />
         <Tab label="Cars" value="cars" />

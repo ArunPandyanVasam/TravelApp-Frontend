@@ -37,10 +37,18 @@ const EmergencyButton = () => {
 
   return (
     <div className={styles.sosContainer}>
-      {alertMessage && <Alert variant="danger">{alertMessage}</Alert>}
+      {alertMessage && <Alert variant="danger" className={styles.alertMessage}>{alertMessage}</Alert>}
       
-      <Button className={styles.sosButton} onClick={handleSOSClick} disabled={loading}>
-        {loading ? <Spinner animation="border" size="sm" /> : <FaExclamationTriangle size={24} />}
+      <Button
+        className={styles.sosButton}
+        onClick={handleSOSClick}
+        disabled={loading}
+      >
+        {loading ? (
+          <Spinner animation="border" size="sm" />
+        ) : (
+          <FaExclamationTriangle className={styles.sosIcon} />
+        )}
         {loading ? " Sending SOS..." : "Send SOS Alert"}
       </Button>
     </div>

@@ -1,0 +1,47 @@
+{
+    "vans": [
+      {
+        "id": 1,
+        "name": "vehicle A",
+        "status": "Available",
+        "price": 100
+      },
+      {
+        "id": 2,
+        "name": "vehicle B",
+        "status": "Rented",
+        "price": 120
+      },
+      {
+        "id": 3,
+        "name": "vehicle C",
+        "status": "Available",
+        "price": 110
+      }
+    ],
+    "reviews": [
+      {
+        "customer": "John Doe",
+        "review": "Amazing experience! Will rent again.",
+        "rating": 5
+      },
+      {
+        "customer": "Jane Smith",
+        "review": "Good service, but needs improvement in cleanliness.",
+        "rating": 3
+      }
+    ],
+    "income": {
+      "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+      "datasets": [
+        {
+          "label": "Income Over Time",
+          "data": [500, 700, 900, 1200, 1500, 1800],
+          "fill": false,
+          "borderColor": "#4CAF50",
+          "tension": 0.1
+        }
+      ]
+    }
+  }
+  

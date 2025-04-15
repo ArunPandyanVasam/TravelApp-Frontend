@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Links */}
-      <ul className={`${styles.navLinks} ${isMenuOpen ? styles.active : ""}`}>
+      {/* <ul className={`${styles.navLinks} ${isMenuOpen ? styles.active : ""}`}>
         <li>
           <Link to="/rent" className={styles.navLink}>
             Rent
@@ -33,23 +33,13 @@ const Navbar = () => {
           <Link to="/planner" className={styles.navLink}>
             Planner
           </Link>
-        </li>
-        <li>
-          <Link to="/safety" className={styles.navLink}>
-            Safety
-          </Link>
-        </li>
+        </li>np
         <li>
           <Link to="/expenses" className={styles.navLink}>
             Expenses
           </Link>
         </li>
-        <li>
-          <Link to="/profile" className={styles.navLink}>
-            Profile
-          </Link>
-        </li>
-      </ul>
+      </ul> */}
     </nav>
   );
 };

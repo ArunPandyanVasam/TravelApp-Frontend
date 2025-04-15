@@ -1,0 +1,66 @@
+/* VehicleCard styles */
+.vehicleList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .vehicleCard {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 300px;
+    margin: 20px;
+  }
+  
+  .vehicleCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vehicleCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .vehicleCardBody {
+    padding: 15px;
+  }
+  
+  .vehicleCardTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .vehicleCardDescription {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .vehicleCardFooter {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .vehicleCardFooter a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+  }
+  
+  .vehicleCardFooter a:hover {
+    text-decoration: underline;
+  }
+  

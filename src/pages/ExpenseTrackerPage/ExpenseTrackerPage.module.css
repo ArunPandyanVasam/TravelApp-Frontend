@@ -1,32 +1,52 @@
 /* ExpenseTrackerPage.module.css */
 
 .expense-tracker-page {
-    padding: 30px;
-    background-color: #fafafa;
-    font-family: 'Arial', sans-serif;
+  padding: 40px;
+  background-color: #f4f4f9; /* Soft background to make it less harsh */
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content */
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .expense-tracker-page {
+    padding: 25px;
   }
-  
+
   h1 {
-    font-size: 36px;
-    text-align: center;
-    color: #333;
-    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .expense-tracker-page {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
     margin-bottom: 20px;
   }
-  
-  @media (max-width: 768px) {
-    .expense-tracker-page {
-      padding: 20px;
-    }
-  
-    h1 {
-      font-size: 28px;
-    }
+}
+
+@media (max-width: 480px) {
+  .expense-tracker-page {
+    padding: 15px;
   }
-  
-  @media (max-width: 480px) {
-    h1 {
-      font-size: 24px;
-    }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
   }
-  
+}
